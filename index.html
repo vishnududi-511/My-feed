@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My feed</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="/assets/images/illuminati.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="d-flex justi-cont-space-btw py-15">
+                    <div class="d-flex  gap-63">
+                        <div class="gap-25 align-items d-flex ml-60-lg">
+                            <div>
+                                <img src="./assets/images/illuminati.png" alt=".."
+                                    class="cursor-pointer illuminati-img">
+                            </div>
+                            <p class="NFT cursor-pointer">NFTsee</p>
+                        </div>
+                        <label for="menubar" id="menubar">
+                            <span class="right"></span>
+                            <span></span>
+                            <span class="left"></span>
+                        </label>
+
+                        <div class="gap-59 align-items d-flex nav-items">
+                            <a href="#">
+                                <p class="nav-fonts">Feed</p>
+                            </a>
+                            <a href="#">
+                                <p class="nav-fonts">Wallet</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items gap-25">
+                        <input type="text" placeholder="Search here..." class="Search-here">
+                        <span class="search-icon">
+                            <svg width="19" height="19" viewBox="0 0 19 19" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8 16C9.77498 15.9996 11.4988 15.4054 12.897 14.312L17.293 18.708L18.707 17.294L14.311 12.898C15.405 11.4997 15.9996 9.77544 16 8C16 3.589 12.411 0 8 0C3.589 0 0 3.589 0 8C0 12.411 3.589 16 8 16ZM8 2C11.309 2 14 4.691 14 8C14 11.309 11.309 14 8 14C4.691 14 2 11.309 2 8C2 4.691 4.691 2 8 2Z"
+                                    fill="black" />
+                            </svg>
+
+                        </span>
+                        <div class="toggle-box d-flex align-items">
+                            <div class="toggle-ball"></div>
+                        </div>
+                        <div class="img-circle">
+                            <img src="./assets/images/nav-img.png" alt="." class="w-100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="py-130">
+        <div class="container">
+            <div class="row flex-direction-rev-col-md">
+                <div class="col-8 col-12-md">
+                    <!-- card-1 -->
+                    <div class="card-1">
+                        <div class="d-flex justi-cont-space-btw align-items">
+                            <div class="d-flex align-items gap-10">
+                                <div>
+                                    <img src="./assets/images/card-1-img-1.png" alt="." class="card-img-1">
+                                </div>
+                                <p class="card-1-font">Jhone doe</p>
+                            </div>
+                            <span class="cursor-pointer">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g opacity="0.6" clip-path="url(#clip0_34717_2464)">
+                                        <path
+                                            d="M12.2 10.0008C12.2 9.71177 12.143 9.42556 12.0324 9.15852C11.9218 8.89148 11.7597 8.64884 11.5553 8.44446C11.3509 8.24008 11.1083 8.07796 10.8412 7.96735C10.5742 7.85673 10.288 7.7998 9.99895 7.7998C9.70991 7.7998 9.4237 7.85673 9.15666 7.96735C8.88963 8.07796 8.64699 8.24008 8.44261 8.44446C8.23823 8.64884 8.0761 8.89148 7.96549 9.15852C7.85488 9.42556 7.79795 9.71177 7.79795 10.0008C7.79808 10.5845 8.0301 11.1443 8.44296 11.557C8.85582 11.9697 9.41571 12.2014 9.99945 12.2013C10.5832 12.2012 11.143 11.9692 11.5556 11.5563C11.9683 11.1434 12.2001 10.5835 12.2 9.9998L12.2 10.0008ZM14.8 10.0008C14.8001 10.2897 14.8571 10.5758 14.9678 10.8426C15.0785 11.1095 15.2406 11.352 15.445 11.5561C15.6494 11.7603 15.892 11.9223 16.159 12.0327C16.4259 12.1432 16.712 12.1999 17.001 12.1998C17.2899 12.1997 17.5759 12.1426 17.8428 12.032C18.1096 11.9213 18.3521 11.7591 18.5563 11.5547C18.7605 11.3504 18.9224 11.1078 19.0329 10.8408C19.1433 10.5738 19.2001 10.2877 19.2 9.9988C19.1997 9.41533 18.9676 8.85586 18.5549 8.44346C18.1421 8.03107 17.5824 7.79954 16.999 7.7998C16.4155 7.80007 15.856 8.03211 15.4436 8.44488C15.0312 8.85764 14.7997 9.41733 14.8 10.0008ZM5.19995 10.0008C5.19995 9.41706 4.96806 8.85723 4.55529 8.44446C4.14253 8.03169 3.58269 7.7998 2.99895 7.7998C2.41521 7.7998 1.85538 8.03169 1.44261 8.44446C1.02984 8.85723 0.797951 9.41706 0.797951 10.0008C0.797951 10.5845 1.02984 11.1444 1.44261 11.5571C1.85538 11.9699 2.41521 12.2018 2.99895 12.2018C3.58269 12.2018 4.14253 11.9699 4.55529 11.5571C4.96806 11.1444 5.19995 10.5845 5.19995 10.0008Z"
+                                            fill="black" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_34717_2464">
+                                            <rect width="20" height="20" fill="white"
+                                                transform="translate(20) rotate(90)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="mt-45">
+                            <img src="./assets/images/card-1-img-2.png" alt=".." class="w-100">
+                        </div>
+                        <div class="d-flex align-items gap-25 mt-20 mb-25">
+                            <span class="cursor-pointer heart d-flex align-items">
+                                <svg class="w-100" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7 3C4.239 3 2 5.216 2 7.95C2 10.157 2.875 15.395 11.488 20.69C11.6423 20.7839 11.8194 20.8335 12 20.8335C12.1806 20.8335 12.3577 20.7839 12.512 20.69C21.125 15.395 22 10.157 22 7.95C22 5.216 19.761 3 17 3C14.239 3 12 6 12 6C12 6 9.761 3 7 3Z"
+                                        stroke="black" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                            <span class="cursor-pointer comment-icon d-flex align-items">
+                                <svg class="w-100" width="22" height="21" viewBox="0 0 22 21" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13 17C16.771 17 18.657 17 19.828 15.828C21 14.657 21 12.771 21 9C21 5.229 21 3.343 19.828 2.172C18.657 1 16.771 1 13 1H9C5.229 1 3.343 1 2.172 2.172C1 3.343 1 5.229 1 9C1 12.771 1 14.657 2.172 15.828C2.825 16.482 3.7 16.771 5 16.898"
+                                        stroke="black" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M13.0002 17C11.7642 17 10.4022 17.5 9.15924 18.145C7.16124 19.182 6.16224 19.701 5.67024 19.37C5.17824 19.04 5.27124 18.015 5.45824 15.966L5.50024 15.5"
+                                        stroke="black" stroke-width="2" stroke-linecap="round" />
+                                </svg>
+
+                            </span>
+                        </div>
+                        <div class="card-1-comment-box d-flex justi-cont-space-btw">
+                            <input type="text" placeholder="Add a comment..." class="card-1-comment-area card-1-font">
+                            <p class="post cursor-pointer">post</p>
+                        </div>
+                    </div>
+                    <!-- card-2 -->
+                    <div class="card-1 mt-20">
+                        <div class="d-flex justi-cont-space-btw align-items">
+                            <div class="d-flex align-items gap-10">
+                                <div>
+                                    <img src="./assets/images/crad-2-img-1.png" alt="." class="card-img-1">
+                                </div>
+                                <p class="card-1-font">Jhone doe</p>
+                            </div>
+                            <span class="cursor-pointer">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g opacity="0.6" clip-path="url(#clip0_34717_2464)">
+                                        <path
+                                            d="M12.2 10.0008C12.2 9.71177 12.143 9.42556 12.0324 9.15852C11.9218 8.89148 11.7597 8.64884 11.5553 8.44446C11.3509 8.24008 11.1083 8.07796 10.8412 7.96735C10.5742 7.85673 10.288 7.7998 9.99895 7.7998C9.70991 7.7998 9.4237 7.85673 9.15666 7.96735C8.88963 8.07796 8.64699 8.24008 8.44261 8.44446C8.23823 8.64884 8.0761 8.89148 7.96549 9.15852C7.85488 9.42556 7.79795 9.71177 7.79795 10.0008C7.79808 10.5845 8.0301 11.1443 8.44296 11.557C8.85582 11.9697 9.41571 12.2014 9.99945 12.2013C10.5832 12.2012 11.143 11.9692 11.5556 11.5563C11.9683 11.1434 12.2001 10.5835 12.2 9.9998L12.2 10.0008ZM14.8 10.0008C14.8001 10.2897 14.8571 10.5758 14.9678 10.8426C15.0785 11.1095 15.2406 11.352 15.445 11.5561C15.6494 11.7603 15.892 11.9223 16.159 12.0327C16.4259 12.1432 16.712 12.1999 17.001 12.1998C17.2899 12.1997 17.5759 12.1426 17.8428 12.032C18.1096 11.9213 18.3521 11.7591 18.5563 11.5547C18.7605 11.3504 18.9224 11.1078 19.0329 10.8408C19.1433 10.5738 19.2001 10.2877 19.2 9.9988C19.1997 9.41533 18.9676 8.85586 18.5549 8.44346C18.1421 8.03107 17.5824 7.79954 16.999 7.7998C16.4155 7.80007 15.856 8.03211 15.4436 8.44488C15.0312 8.85764 14.7997 9.41733 14.8 10.0008ZM5.19995 10.0008C5.19995 9.41706 4.96806 8.85723 4.55529 8.44446C4.14253 8.03169 3.58269 7.7998 2.99895 7.7998C2.41521 7.7998 1.85538 8.03169 1.44261 8.44446C1.02984 8.85723 0.797951 9.41706 0.797951 10.0008C0.797951 10.5845 1.02984 11.1444 1.44261 11.5571C1.85538 11.9699 2.41521 12.2018 2.99895 12.2018C3.58269 12.2018 4.14253 11.9699 4.55529 11.5571C4.96806 11.1444 5.19995 10.5845 5.19995 10.0008Z"
+                                            fill="black" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_34717_2464">
+                                            <rect width="20" height="20" fill="white"
+                                                transform="translate(20) rotate(90)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="d-flex align-items justi-cont-center img-bg-color-border mt-45">
+                            <img src="./assets/images/card-2-img-2.png" alt=".." class="w-70 sm-w-100">
+                        </div>
+                        <div class="d-flex align-items gap-25 mt-20 mb-25">
+                            <span class="cursor-pointer heart d-flex align-items">
+                                <svg class="w-100" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7 3C4.239 3 2 5.216 2 7.95C2 10.157 2.875 15.395 11.488 20.69C11.6423 20.7839 11.8194 20.8335 12 20.8335C12.1806 20.8335 12.3577 20.7839 12.512 20.69C21.125 15.395 22 10.157 22 7.95C22 5.216 19.761 3 17 3C14.239 3 12 6 12 6C12 6 9.761 3 7 3Z"
+                                        stroke="black" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                            <span class="cursor-pointer comment-icon d-flex align-items">
+                                <svg class="w-100" width="22" height="21" viewBox="0 0 22 21" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13 17C16.771 17 18.657 17 19.828 15.828C21 14.657 21 12.771 21 9C21 5.229 21 3.343 19.828 2.172C18.657 1 16.771 1 13 1H9C5.229 1 3.343 1 2.172 2.172C1 3.343 1 5.229 1 9C1 12.771 1 14.657 2.172 15.828C2.825 16.482 3.7 16.771 5 16.898"
+                                        stroke="black" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M13.0002 17C11.7642 17 10.4022 17.5 9.15924 18.145C7.16124 19.182 6.16224 19.701 5.67024 19.37C5.17824 19.04 5.27124 18.015 5.45824 15.966L5.50024 15.5"
+                                        stroke="black" stroke-width="2" stroke-linecap="round" />
+                                </svg>
+
+                            </span>
+                        </div>
+                        <div class="card-1-comment-box d-flex justi-cont-space-btw">
+                            <input type="text" placeholder="Add a comment..." class="card-1-comment-area card-1-font">
+                            <p class="post cursor-pointer">post</p>
+                        </div>
+                    </div>
+                    <!-- card-3 -->
+                    <div class="card-1 mt-20">
+                        <div class="d-flex justi-cont-space-btw align-items">
+                            <div class="d-flex align-items gap-10">
+                                <div>
+                                    <img src="./assets/images/card-3-img-1.png" alt="." class="card-img-1">
+                                </div>
+                                <p class="card-1-font">Jhone doe</p>
+                            </div>
+                            <span class="cursor-pointer">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g opacity="0.6" clip-path="url(#clip0_34717_2464)">
+                                        <path
+                                            d="M12.2 10.0008C12.2 9.71177 12.143 9.42556 12.0324 9.15852C11.9218 8.89148 11.7597 8.64884 11.5553 8.44446C11.3509 8.24008 11.1083 8.07796 10.8412 7.96735C10.5742 7.85673 10.288 7.7998 9.99895 7.7998C9.70991 7.7998 9.4237 7.85673 9.15666 7.96735C8.88963 8.07796 8.64699 8.24008 8.44261 8.44446C8.23823 8.64884 8.0761 8.89148 7.96549 9.15852C7.85488 9.42556 7.79795 9.71177 7.79795 10.0008C7.79808 10.5845 8.0301 11.1443 8.44296 11.557C8.85582 11.9697 9.41571 12.2014 9.99945 12.2013C10.5832 12.2012 11.143 11.9692 11.5556 11.5563C11.9683 11.1434 12.2001 10.5835 12.2 9.9998L12.2 10.0008ZM14.8 10.0008C14.8001 10.2897 14.8571 10.5758 14.9678 10.8426C15.0785 11.1095 15.2406 11.352 15.445 11.5561C15.6494 11.7603 15.892 11.9223 16.159 12.0327C16.4259 12.1432 16.712 12.1999 17.001 12.1998C17.2899 12.1997 17.5759 12.1426 17.8428 12.032C18.1096 11.9213 18.3521 11.7591 18.5563 11.5547C18.7605 11.3504 18.9224 11.1078 19.0329 10.8408C19.1433 10.5738 19.2001 10.2877 19.2 9.9988C19.1997 9.41533 18.9676 8.85586 18.5549 8.44346C18.1421 8.03107 17.5824 7.79954 16.999 7.7998C16.4155 7.80007 15.856 8.03211 15.4436 8.44488C15.0312 8.85764 14.7997 9.41733 14.8 10.0008ZM5.19995 10.0008C5.19995 9.41706 4.96806 8.85723 4.55529 8.44446C4.14253 8.03169 3.58269 7.7998 2.99895 7.7998C2.41521 7.7998 1.85538 8.03169 1.44261 8.44446C1.02984 8.85723 0.797951 9.41706 0.797951 10.0008C0.797951 10.5845 1.02984 11.1444 1.44261 11.5571C1.85538 11.9699 2.41521 12.2018 2.99895 12.2018C3.58269 12.2018 4.14253 11.9699 4.55529 11.5571C4.96806 11.1444 5.19995 10.5845 5.19995 10.0008Z"
+                                            fill="black" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_34717_2464">
+                                            <rect width="20" height="20" fill="white"
+                                                transform="translate(20) rotate(90)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="mt-45">
+                            <img src="./assets/images/card-3-img-2.png" alt=".." class="w-100">
+                        </div>
+                        <div class="d-flex align-items gap-25 mt-20 mb-25">
+                            <span class="cursor-pointer heart d-flex align-items">
+                                <svg class="w-100" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7 3C4.239 3 2 5.216 2 7.95C2 10.157 2.875 15.395 11.488 20.69C11.6423 20.7839 11.8194 20.8335 12 20.8335C12.1806 20.8335 12.3577 20.7839 12.512 20.69C21.125 15.395 22 10.157 22 7.95C22 5.216 19.761 3 17 3C14.239 3 12 6 12 6C12 6 9.761 3 7 3Z"
+                                        stroke="black" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                            <span class="cursor-pointer comment-icon d-flex align-items">
+                                <svg class="w-100" width="22" height="21" viewBox="0 0 22 21" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13 17C16.771 17 18.657 17 19.828 15.828C21 14.657 21 12.771 21 9C21 5.229 21 3.343 19.828 2.172C18.657 1 16.771 1 13 1H9C5.229 1 3.343 1 2.172 2.172C1 3.343 1 5.229 1 9C1 12.771 1 14.657 2.172 15.828C2.825 16.482 3.7 16.771 5 16.898"
+                                        stroke="black" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M13.0002 17C11.7642 17 10.4022 17.5 9.15924 18.145C7.16124 19.182 6.16224 19.701 5.67024 19.37C5.17824 19.04 5.27124 18.015 5.45824 15.966L5.50024 15.5"
+                                        stroke="black" stroke-width="2" stroke-linecap="round" />
+                                </svg>
+
+                            </span>
+                        </div>
+                        <div class="card-1-comment-box d-flex justi-cont-space-btw">
+                            <input type="text" placeholder="Add a comment..." class="card-1-comment-area card-1-font">
+                            <p class="post cursor-pointer">post</p>
+                        </div>
+                    </div>
+                    <!-- card-4 -->
+                    <div class="card-1 mt-20">
+                        <div class="d-flex justi-cont-space-btw align-items">
+                            <div class="d-flex align-items gap-10">
+                                <div>
+                                    <img src="./assets/images/card-4-img-1.png" alt="." class="card-img-1">
+                                </div>
+                                <p class="card-1-font">Jhone doe</p>
+                            </div>
+                            <span class="cursor-pointer">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g opacity="0.6" clip-path="url(#clip0_34717_2464)">
+                                        <path
+                                            d="M12.2 10.0008C12.2 9.71177 12.143 9.42556 12.0324 9.15852C11.9218 8.89148 11.7597 8.64884 11.5553 8.44446C11.3509 8.24008 11.1083 8.07796 10.8412 7.96735C10.5742 7.85673 10.288 7.7998 9.99895 7.7998C9.70991 7.7998 9.4237 7.85673 9.15666 7.96735C8.88963 8.07796 8.64699 8.24008 8.44261 8.44446C8.23823 8.64884 8.0761 8.89148 7.96549 9.15852C7.85488 9.42556 7.79795 9.71177 7.79795 10.0008C7.79808 10.5845 8.0301 11.1443 8.44296 11.557C8.85582 11.9697 9.41571 12.2014 9.99945 12.2013C10.5832 12.2012 11.143 11.9692 11.5556 11.5563C11.9683 11.1434 12.2001 10.5835 12.2 9.9998L12.2 10.0008ZM14.8 10.0008C14.8001 10.2897 14.8571 10.5758 14.9678 10.8426C15.0785 11.1095 15.2406 11.352 15.445 11.5561C15.6494 11.7603 15.892 11.9223 16.159 12.0327C16.4259 12.1432 16.712 12.1999 17.001 12.1998C17.2899 12.1997 17.5759 12.1426 17.8428 12.032C18.1096 11.9213 18.3521 11.7591 18.5563 11.5547C18.7605 11.3504 18.9224 11.1078 19.0329 10.8408C19.1433 10.5738 19.2001 10.2877 19.2 9.9988C19.1997 9.41533 18.9676 8.85586 18.5549 8.44346C18.1421 8.03107 17.5824 7.79954 16.999 7.7998C16.4155 7.80007 15.856 8.03211 15.4436 8.44488C15.0312 8.85764 14.7997 9.41733 14.8 10.0008ZM5.19995 10.0008C5.19995 9.41706 4.96806 8.85723 4.55529 8.44446C4.14253 8.03169 3.58269 7.7998 2.99895 7.7998C2.41521 7.7998 1.85538 8.03169 1.44261 8.44446C1.02984 8.85723 0.797951 9.41706 0.797951 10.0008C0.797951 10.5845 1.02984 11.1444 1.44261 11.5571C1.85538 11.9699 2.41521 12.2018 2.99895 12.2018C3.58269 12.2018 4.14253 11.9699 4.55529 11.5571C4.96806 11.1444 5.19995 10.5845 5.19995 10.0008Z"
+                                            fill="black" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_34717_2464">
+                                            <rect width="20" height="20" fill="white"
+                                                transform="translate(20) rotate(90)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="d-flex align-items justi-cont-center img-bg-color-border mt-45">
+                            <img src="./assets/images/card-4-img-2.png" alt=".." class="w-70 sm-w-100">
+                        </div>
+                        <div class="d-flex align-items gap-25 mt-20 mb-25">
+                            <span class="cursor-pointer heart d-flex align-items">
+                                <svg class="w-100" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7 3C4.239 3 2 5.216 2 7.95C2 10.157 2.875 15.395 11.488 20.69C11.6423 20.7839 11.8194 20.8335 12 20.8335C12.1806 20.8335 12.3577 20.7839 12.512 20.69C21.125 15.395 22 10.157 22 7.95C22 5.216 19.761 3 17 3C14.239 3 12 6 12 6C12 6 9.761 3 7 3Z"
+                                        stroke="black" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                            <span class="cursor-pointer comment-icon d-flex align-items">
+                                <svg class="w-100" width="22" height="21" viewBox="0 0 22 21" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13 17C16.771 17 18.657 17 19.828 15.828C21 14.657 21 12.771 21 9C21 5.229 21 3.343 19.828 2.172C18.657 1 16.771 1 13 1H9C5.229 1 3.343 1 2.172 2.172C1 3.343 1 5.229 1 9C1 12.771 1 14.657 2.172 15.828C2.825 16.482 3.7 16.771 5 16.898"
+                                        stroke="black" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M13.0002 17C11.7642 17 10.4022 17.5 9.15924 18.145C7.16124 19.182 6.16224 19.701 5.67024 19.37C5.17824 19.04 5.27124 18.015 5.45824 15.966L5.50024 15.5"
+                                        stroke="black" stroke-width="2" stroke-linecap="round" />
+                                </svg>
+
+                            </span>
+                        </div>
+                        <div class="card-1-comment-box d-flex justi-cont-space-btw">
+                            <input type="text" placeholder="Add a comment..." class="card-1-comment-area card-1-font">
+                            <p class="post cursor-pointer">post</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-12-md">
+                    <div>
+                        <p class="radio-font">Filters</p>
+                        <div class="d-none">
+                            <div class="mt-20 d-flex align-items gap-10">
+                                <input type="radio" id="Most-Liked" name="filters" class="cursor-pointer">
+                                <label for="Most-Liked" class="radio-font cursor-pointer">Most Liked</label>
+                            </div>
+                            <div class="d-flex align-items gap-10">
+                                <input type="radio" id="Recently-Received" name="filters" class="cursor-pointer">
+                                <label for="Recently-Received" class="radio-font cursor-pointer">Recently
+                                    Received</label>
+                            </div>
+                        </div>
+                        <div class="col-4-buttons d-flex gap-10 mt-10">
+                            <button class="Most-Liked cursor-pointer">Most Liked</button>
+                            <button class="Recently-Received cursor-pointer">Recently Received</button>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="radio-font mt-40 md-my-16">Suggestions for you</p>
+                    </div>
+                    <div class="slider">
+                        <div class="slider-box">
+                            <div class="d-flex gap-10 flex-direction-col align-items">
+                                <div><img src="./assets/images/col-4-img-1.png" alt="."></div>
+                                <p class="slider-font">Jhone doe</p>
+                                <p class="slider-font-2 follow">Follow</p>
+                            </div>
+                        </div>
+                        <div class="slider-box">
+                            <div class="d-flex gap-10 flex-direction-col align-items">
+                                <div><img src="./assets/images/col-4-img-2.png" alt="."></div>
+                                <p class="slider-font">Jhone doe</p>
+                                <p class="slider-font-2 follow">Follow</p>
+                            </div>
+                        </div>
+                        <div class="slider-box">
+                            <div class="d-flex gap-10 flex-direction-col align-items">
+                                <div><img src="./assets/images/col-4-img-3.png" alt="."></div>
+                                <p class="slider-font">Jhone doe</p>
+                                <p class="slider-font-2 follow">Follow</p>
+                            </div>
+                        </div>
+                        <div class="slider-box">
+                            <div class="d-flex gap-10 flex-direction-col align-items">
+                                <div><img src="./assets/images/col-4-img-4.png" alt="."></div>
+                                <p class="slider-font">Jhone doe</p>
+                                <p class="slider-font-2 follow">Follow</p>
+                            </div>
+                        </div>
+                        <div class="slider-box">
+                            <div class="d-flex gap-10 flex-direction-col align-items">
+                                <div><img src="./assets/images/col-4-img-5.png" alt="."></div>
+                                <p class="slider-font">Jhone doe</p>
+                                <p class="slider-font-2 follow">Follow</p>
+                            </div>
+                        </div>
+                        <div class="slider-box">
+                            <div class="d-flex gap-10 flex-direction-col align-items">
+                                <div><img src="./assets/images/col-4-img-6.png" alt="."></div>
+                                <p class="slider-font">Jhone doe</p>
+                                <p class="slider-font-2 follow">Follow</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="d-none mt-20">
+                        <div class="d-flex justi-cont-space-btw align-items">
+                            <div class="d-flex gap-10 align-items">
+                                <div><img src="./assets/images/col-4-img-1.png" alt="."></div>
+                                <p class="slider-font">Jhone doe</p>
+                            </div>
+                            <p class="slider-font-2 follow">Follow</p>
+                        </div>
+                        <div class="d-flex justi-cont-space-btw align-items mt-15">
+                            <div class="d-flex gap-10 align-items">
+                                <div><img src="./assets/images/col-4-img-2.png" alt="."></div>
+                                <p class="slider-font">Jhone doe</p>
+                            </div>
+                            <p class="slider-font-2 follow">Follow</p>
+                        </div>
+                        <div class="d-flex justi-cont-space-btw align-items mt-15">
+                            <div class="d-flex gap-10 align-items">
+                                <div><img src="./assets/images/col-4-img-3.png" alt="."></div>
+                                <p class="slider-font">Jhone doe</p>
+                            </div>
+                            <p class="slider-font-2 follow">Follow</p>
+                        </div>
+                        <div class="d-flex justi-cont-space-btw align-items mt-15">
+                            <div class="d-flex gap-10 align-items">
+                                <div><img src="./assets/images/col-4-img-4.png" alt="."></div>
+                                <p class="slider-font">Jhone doe</p>
+                            </div>
+                            <p class="slider-font-2 follow">Follow</p>
+                        </div>
+                        <div class="d-flex justi-cont-space-btw align-items mt-15">
+                            <div class="d-flex gap-10 align-items">
+                                <div><img src="./assets/images/col-4-img-5.png" alt="."></div>
+                                <p class="slider-font">Jhone doe</p>
+                            </div>
+                            <p class="slider-font-2 follow">Follow</p>
+                        </div>
+                        <div class="d-flex justi-cont-space-btw align-items mt-15">
+                            <div class="d-flex gap-10 align-items">
+                                <div><img src="./assets/images/col-4-img-6.png" alt="."></div>
+                                <p class="slider-font">Jhone doe</p>
+                            </div>
+                            <p class="slider-font-2 follow">Follow</p>
+                        </div>
+                    </div>
+                    <p class="copyright mt-45">Copyright@2021</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $('.slider').slick({
+            dots: true,
+            infinite: true,
+            speed: 2000,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1000,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });</script>
+</body>
+
+</html
