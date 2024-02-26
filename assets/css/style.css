@@ -455,7 +455,7 @@ nav {
 }
 
 @media (max-width:992px) {
-    label[for="menubar"] {
+    .menubar {
         width: 45px;
         height: 30px;
         position: absolute;
@@ -469,13 +469,13 @@ nav {
         transform: translateY(-50%);
     }
 
-    label[for="menubar"] span {
+    .menubar span {
         height: 4px;
         width: 100%;
         background-color: var(--color-black);
     }
 
-    label[for="menubar"] .left {
+    .menubar .left {
         height: 4px;
         width: 50%;
         background-color: var(--color-black);
@@ -484,7 +484,7 @@ nav {
         left: 0;
     }
 
-    label[for="menubar"] .right {
+    .menubar .right {
         height: 4px;
         width: 50%;
         background-color: var(--color-black);
@@ -529,7 +529,7 @@ nav {
 }
 
 @media (max-width:768px) {
-    label[for="menubar"] {
+    .menubar {
         width: 30px;
         height: 25px;
         position: absolute;
@@ -568,7 +568,7 @@ nav {
 }
 
 @media (max-width:576px) {
-    label[for="menubar"] {
+    .menubar {
         width: 25px;
         height: 20px;
         position: absolute;
@@ -577,13 +577,13 @@ nav {
         transform: translateY(-50%);
     }
 
-    label[for="menubar"] span {
+    .menubar span {
         height: 3px;
         width: 100%;
         background-color: var(--color-black);
     }
 
-    label[for="menubar"] .left {
+    .menubar .left {
         height: 3px;
         width: 45%;
         background-color: var(--color-black);
@@ -592,7 +592,7 @@ nav {
         left: 0;
     }
 
-    label[for="menubar"] .right {
+    .menubar .right {
         height: 3px;
         width: 45%;
         background-color: var(--color-black);
